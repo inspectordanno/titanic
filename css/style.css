@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.title {
+  font-size: 5em;
+}
+
+.padding {
+  padding-top: 28px; }
+
+.card {
+  margin-top: 40px; }
+
+.card-title {
+  font-weight: lighter;
+  margin-bottom: 10%;
+  font-size: 2.4em; }
+
+.card-text {
+  font-size: 1.4em;
+  text-align: left; }
+
+.lifeboat {
+  width: 50%;
+  height: 50%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+ }

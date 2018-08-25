@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dan Spector Information Designer Data Journalist Portfolio">
+    <meta name="author" content="Dan Spector">
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+     <!-- Custom Styles-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title> Titanic Survivor Vizualization </title>
+
+  </head>
+
+  <body>
+
+    <div class="container nomargin">
+      <section id="header1" class='text-center padding'>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <div class="margin"></div>
+                 <h1 class="title">How did passenger class affect survival on the Titanic?</h1>
+                 <h3 class="subtitle">by Dan Spector</h2>
+            </div>
+            </div>
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+        <div class="card">
+        <!-- <img class="card-img-top" src="../pdf/three_trips.svg" alt="Card image cap"> -->
+          <div class="card-body">
+            <p class="card-text">
+              The shipwreck of the RMS Titanic is a disaster that has remained in the public consciousness for over 100 years.
+              But not everyone is aware of the correlation between passenger class and survival.
+            </p>
+          </div>
+        </div>
+        <img src="titanic.jpg" class="lifeboat" alt="titanic">
+        </div>
+      </div>
+
+      <br>
+
+            <div class="row">
+              <div class="col-md-12">
+                 <h4 class="skills">Explore a chart of the survivors by class</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-4">
+              </div>
+              <div class="col-xs-4 svg-container-1">
+              </div>
+              <div class="col-xs-4">
+              </div>
+            </div>
+
+
+            <br>
+
+
+              <div class="btn-group" data-toggle="buttons">
+                  <label class="btn btn-primary active" id="total">
+                    <input type="radio" name="options" autocomplete="off" checked> Total
+                  </label>
+                  <label class="btn btn-primary" id="first-class">
+                    <input type="radio" name="options" autocomplete="off"> First Class
+                  </label>
+                  <label class="btn btn-primary" id="second-class">
+                    <input type="radio" name="options" autocomplete="off"> Second Class
+                  </label>
+                  <label class="btn btn-primary" id="third-class">
+                    <input type="radio" name="options" autocomplete="off"> Third Class
+                  </label>
+                </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+              <div class="card">
+              <!-- <img class="card-img-top" src="../pdf/three_trips.svg" alt="Card image cap"> -->
+                <div class="card-body">
+                  <p class="card-text">
+                  The third class passengers were located at the bottom of the ship, so it was difficult for them to navigate the stairs and passageways to reach the boat deck. In addition, third class quarters had few stewards who could direct the passengers where to go.
+                  </p>
+                  <img src="lifeboat.jpg" class="lifeboat" alt="lifeboat">
+                  <p class="card-text">
+                  These are actual Titanic survivors in a lifeboat. The photo was taken by a passenger on the Carpathia, the first ship that received the Titatnic's distress signal. As the picture suggests, the lifeboats were very small.
+                  Even if all the third class passengers were able to reach the boats, only half of them
+                  would have been able to fit.
+                  </p>
+                </div>
+              </div>
+              </div>
+            </div>
+
+            <br>
+            <br>
+
+</div><!-- /.container nomargin -->
+
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="titanic3.js"></script>
+
+
+
+
+  </body>
+</html>
